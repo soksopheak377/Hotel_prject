@@ -1,0 +1,41 @@
+*{
+	margin: auto;
+}
+body{
+	background-color: #F2F2F2 !important;
+}
+hr{
+	height: 5px;
+	background-color: silver;
+	margin-top: 0;
+}
+form{
+	margin-top: 100px;
+	width: 400px;
+	height: 350px;
+	background-color: #EFEAEA;
+	border: 2px solid #BFB9B9;
+	box-shadow:  0 0 10px 10px silver;
+}
+form h2{
+	height: 60px !important;
+	border-radius: 0 !important;
+	margin-top: 0;
+	font-size: 20px !important;
+	text-align: center;
+}
+form .input{
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -5px;
+}
+#btn-sub{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+small{
+	width: 400px;
+	text-align: center;
+	background-color: rgba(125,125,125,0.5);
+}

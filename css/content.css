@@ -1,0 +1,112 @@
+#contant h3{
+	width: 250px;
+	height: 50px;
+	background-color: #D1CACA;
+	margin-top: 0;
+	padding-left: 15px;
+	padding-top: 10px;
+	border-radius: 5px 5px 0 0;
+	margin-bottom: 2px;
+}
+
+#roomleft{
+	width: 250px;
+	min-height: 300px;
+	background-color: #E8E5E5;
+	box-shadow:  0 0 5px 5px silver;
+	border-right: 2px  solid silver;
+	margin:5px;
+	float: left;
+	border-radius: 5px;
+}
+#roomleft ul{
+	padding-left: 0;
+	margin-top: 2px;
+}
+#roomleft ul li{
+	list-style-type: none;
+	margin-left: 0;
+	margin-top: 2px;
+}
+
+#roomleft ul li a{
+	text-decoration: none;
+	border-radius: 0;
+	font-family: arial,'Times New Roman';
+}
+#roomleft ul li a:hover{
+	border-radius: 0;
+	background-color: #CCC9C9;
+	color: #fff;
+}
+/*=====================room show==================*/
+#roomshow{
+	width: 730px;
+	min-height: 200px;
+	background-color: #F2EFEF;
+	box-shadow:  0 0 5px 5px silver;
+	float: right;
+	margin:5px;
+	border-radius: 5px;
+}
+#roomshow #img_left{
+	width: 200px;
+	height: 200px;
+	box-shadow:  0 0 5px 5px silver;
+	float: left;
+	margin:5px;
+	border-radius: 5px;
+}
+
+#roomshow #img_left img{
+	width: 200px;
+	height: 200px;
+}
+#roomshow #desciption{
+	width: 520px;
+	float: right;
+	box-shadow:  0 0 5px 5px silver;
+	padding: 10px;
+	color: blue;
+	text-decoration: underline;
+}
+
+#roomshow #desciption hr{
+	width: 500px;
+	background-color: silver;
+	height: 3px;	
+	margin-bottom: 2px;
+}
+#roomshow #desciption input{
+	width: 100px;
+	height: 30px;
+	display: inline-block;	
+}
+#roomshow #desciption p{
+	color: black;
+	display: inline-block;
+	margin: auto;
+	padding-left: 5px;
+}
+
+/*===============contact===============*/
+#contact{
+	width: 994px;
+	min-height: 150px;
+	background-color: #E5E3E3;
+	box-shadow:  0 0 5px 5px silver;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#contact img{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+#contact #con_right{
+	float: right;
+	width: 750px;
+	height: 150px;
+}

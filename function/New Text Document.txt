@@ -1,0 +1,14 @@
+<?php
+	
+	$con=mysqli_connect("localhost","root","","webhotel") or die("Connection was no established");
+
+	///----------------insertroom----------------
+	//
+	//
+	function Insertroom(){
+	global $con;
+	
+
+	}
+
+?>

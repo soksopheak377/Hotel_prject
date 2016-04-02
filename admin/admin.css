@@ -1,0 +1,88 @@
+*{
+	margin-top: 0;
+}
+body{
+	background-color: #EAE5E5;
+	font-family: arial,'Times New Roman';
+}
+#content{
+	width: 1000px;
+	min-height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0 0 5px 5px silver;
+}
+/*-----------------------header------------------*/
+#header{
+width: 1000px;
+height: 120px;
+background-color: #EFE8E8;
+border-bottom: 3px solid silver;
+}
+#header ul{
+	padding: 20px;
+	width: 660px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 110px;
+
+}
+#header ul li{
+	width: 150px;
+	height: 80px;
+	display: inline-block;
+	list-style-type: none;
+}
+#header ul li a{
+	width: 150px;
+	height: 80px;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding:30px;
+}
+
+/*=========================contentinsert==================*/
+
+#contantinsert{
+	width: 1000px;
+	min-height: 300px;
+	padding: 100px;
+	background-color: #FFFFFF;
+	padding-left: 0px;
+	padding-top: 1px;
+}
+#contantinsert table{
+	width: 1000px;
+	min-height: 200px;
+	background-color: rgba(145,145,145,0.1);
+}
+#contantinsert table tr{
+	width: 996px;
+	height: 50px ;
+	border-top:1px dashed silver;
+	border-bottom:1px dashed silver;
+	background-color: rgba(125,125,125,0.3);
+}
+#contantinsert table tr #td1{
+	width: 150px;
+	text-align: right;
+	border:1px dashed #F9DBDB;
+	border-left:0;
+}
+#contantinsert table tr #td2{
+	padding-left: 30px;
+	border:1px dashed #F9DBDB;
+	border-right:0;
+}
+
+#contantinsert table tr #td2 select{
+	width: 200px;
+	height: 30px;
+	padding: 5px;
+}
+
+
+#contantinsert table tr #td2 #txtarea{
+	margin-top: 10px;
+}
